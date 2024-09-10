@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" lang="en">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Learning Partials</title>
+	<link rel="stylesheet" type="text/css" href="">
+	<script src="https://unpkg.com/htmx.org@1.9.10"
+    integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+    crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="header" hx-get="header.html" hx-trigger="load" hx-swap="outerHTML">
+    	<!-- This content will be replaced with the header.html content -->
+  	</div>
+</body>
+</html>
